@@ -1,0 +1,13 @@
+{
+    "type": "origins:power",
+    "name": "Hades Origin",
+    "description": "The god of the underworld.",
+    "powers": [
+        {
+            "type": "olympians:hades_shadow_step"
+        }
+    ],
+    "attributes": {
+        "origins:health": 20
+    }
+}

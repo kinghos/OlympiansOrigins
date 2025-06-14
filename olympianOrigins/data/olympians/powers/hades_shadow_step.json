@@ -1,0 +1,26 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "Shadow Step",
+    "description": "Step into the shadows, becoming invisible for a short time.",
+    "cooldown": 24000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 9
+    },
+    "effects": [
+        {
+            "type": "origins:invisibility",
+            "duration": 200,
+            "amplifier": 0
+        },
+        {
+            "type": "origins:speed",
+            "duration": 200,
+            "amplifier": 1
+        }
+    ]
+}

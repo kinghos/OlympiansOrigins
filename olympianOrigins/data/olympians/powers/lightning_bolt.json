@@ -1,0 +1,11 @@
+{
+   "name": "Lightning strike",
+   "description": "Occasionally when you hit something you summon a bolt of lightning.",
+   "type": "origins:target_action_on_hit",
+   "cooldown": 120,
+   "entity_action": {
+      "type": "origins:execute_command",
+      "command": "summon lightning_bolt ~ ~ ~",
+      "permission_level": 4
+   }
+}

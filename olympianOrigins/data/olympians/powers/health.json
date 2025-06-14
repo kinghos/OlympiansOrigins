@@ -1,0 +1,11 @@
+{
+	"name": "Divine payment",
+	"description" : "Hera has reduced health due to the strong nature of her powers causing permanent damage.",
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Nine lives health reduction",
+		"attribute": "minecraft:generic.max_health",
+		"value": -6.0,
+		"operation": "addition"
+	}
+}

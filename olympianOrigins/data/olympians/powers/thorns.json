@@ -1,0 +1,19 @@
+{
+    "name": "Thorny armour",
+    "description": "You have natural thorns as you use them to defend your body.",
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:damage",
+            "amount": 1,
+            "source": {
+                "name": "thorns"
+            }
+        }
+    },
+    "cooldown": 40,
+    "hud_render": {
+        "should_render": false
+    }
+}

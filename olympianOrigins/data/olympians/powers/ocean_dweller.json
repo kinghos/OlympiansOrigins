@@ -1,0 +1,80 @@
+{
+	"name": "Ocean Dweller",
+	"description": "You can move and mine faster underwater. Additionally, you have perfect underwater eye sight and gills.",
+	"type": "origins:multiple",
+	"swim_faster": {	
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "additionalentityattributes:water_speed",
+			"name": "Additional swim speed",
+			"value": 2,
+			"operation": "multiply_base"
+		}
+	},
+	"night_vision": {
+		"type": "origins:night_vision",
+		"strength": 1.0,
+		"condition": {
+			"type": "origins:submerged_in",
+			"fluid": "minecraft:water"
+		}
+	},
+	"mine_underwater": {
+		"type": "origins:modify_break_speed",
+		"modifier": {
+		"operation": "multiply_total",
+		"value": 4
+		},
+		"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+			"type": "origins:submerged_in",
+			"fluid": "minecraft:water"
+			},
+			{
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:aqua_affinity",
+			"comparison": "==",
+			"compare_to": 0
+			}
+		]
+		}
+	},
+	"mine_ungrounded": {
+		"type": "origins:modify_break_speed",
+		"modifier": {
+		"operation": "multiply_total",
+		"value": 4
+		},
+		"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": ">",
+			"compare_to": 0
+			},
+			{
+			"type": "origins:on_block",
+			"inverted": true
+			}
+		]
+		}
+	},
+	"water_breathing": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 2,
+		"duration_per_stack": 20,
+		"tick_rate": 10,
+		"effect": {
+			"effect": "minecraft:water_breathing",
+			"duration": 100,
+			"amplifier": 0,
+			"show_particles": false,
+			"show_icon": true
+		}
+	}
+}

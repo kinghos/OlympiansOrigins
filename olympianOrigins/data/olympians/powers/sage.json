@@ -1,0 +1,120 @@
+{
+	"name": "Sage's buff",
+	"description": "Applies a random positive effect.",
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:choice",
+			"actions": [{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:regeneration",
+						"duration": 600,
+						"amplifier": 1
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:absorption",
+						"duration": 600,
+						"amplifier": 1
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:haste",
+						"duration": 600,
+						"amplifier": 2
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance",
+						"duration": 600,
+						"amplifier": 0
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:jump_boost",
+						"duration": 600,
+						"amplifier": 1
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:resistance",
+						"duration": 600,
+						"amplifier": 1
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:saturation",
+						"duration": 600,
+						"amplifier": 2
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:speed",
+						"duration": 600,
+						"amplifier": 1
+					}
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:strength",
+						"duration": 600,
+						"amplifier": 0
+					}
+				},
+				"weight": 1
+			}]
+		}]
+	},
+	"cooldown": 600,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 1
+	}
+}

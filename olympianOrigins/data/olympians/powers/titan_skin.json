@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Titan Skin",
+  "description": "Gives hardened skin from working in the forge.",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 8.0,
+    "operation": "addition"
+  }
+}

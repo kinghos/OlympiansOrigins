@@ -1,0 +1,11 @@
+{
+	"name": "Watcher of the flame",
+	"description" : "You have reduced health due to your passive nature.",
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Nine lives health reduction",
+		"attribute": "minecraft:generic.max_health",
+		"value": -6.0,
+		"operation": "addition"
+	}
+}

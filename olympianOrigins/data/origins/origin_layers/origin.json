@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "origins": [
+	"olympians:aphrodite",
+    "olympians:apollo",
+	"olympians:ares",
+	"olympians:artemis",
+	"olympians:athena",
+	"olympians:cyclops",
+	"olympians:demeter",
+	"olympians:developer",
+	"olympians:dionysus",
+	"olympians:dryad",
+	"olympians:hades",
+	"olympians:hephaestus",
+	"olympians:hera",
+	"olympians:hermes",
+	"olympians:hestia",
+	"olympians:poseidon",
+	"olympians:zeus"
+  ]
+}

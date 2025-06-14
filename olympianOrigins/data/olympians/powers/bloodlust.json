@@ -1,0 +1,20 @@
+{
+	"type": "origins:conditioned_attribute",
+	"name": "Bloodlust",
+	"description": "After lots of experience in battle, your swords deal more damage",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4.0
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+				"ingredient": {
+					"tag": "minecraft:swords"
+            }
+            }
+        }
+}

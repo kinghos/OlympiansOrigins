@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"olympians:bless_gapple",
+		"olympians:curse",
+		"olympians:prot",
+		"olympians:health"
+	],
+	"icon": "minecraft:golden_apple",
+	"order": 10,
+	"impact": 1,
+	"name": "Hera",
+	"description": "The goddess of marriage and fertility."
+}

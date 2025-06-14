@@ -1,0 +1,8 @@
+{
+  "type": "origins:invulnerability",
+  "name": "Hellforged",
+  "description": "Gives immunity to all fire damage.",
+  "damage_condition": {
+    "type": "origins:fire"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Lord of the dead",
+  "description": "Zombies and skeletons will not damage you.",
+
+  "type": "origins:modify_damage_taken",
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:skeleton"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:zombie"
+        }
+      ]
+    }
+  },
+  "modifier": {
+      "name": "Weak to cursed items",
+      "operation": "set_total",
+      "value": 0
+  }
+}

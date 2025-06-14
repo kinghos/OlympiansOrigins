@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"olympians:undead",
+		"olympians:summon",
+		"olympians:power",
+		"olympians:bless_mining",
+		"olympians:burn",
+		"olympians:smite"
+	],
+	"icon": "minecraft:bone",
+	"order": 10,
+	"impact": 2,
+	"name": "Hades",
+	"description": "The god of the underworld."
+}

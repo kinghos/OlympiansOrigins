@@ -1,0 +1,20 @@
+{
+	"name": "Burning wood",
+    "description": "You are weaker in the nether.",
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "nether"
+	},
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 9999,
+	"tick_rate": 10,
+	"effect": {
+		"effect": "minecraft:weakness",
+		"duration": 9999,
+		"amplifier": 1,
+		"show_particles": false,
+		"show_icon": true
+	}
+}

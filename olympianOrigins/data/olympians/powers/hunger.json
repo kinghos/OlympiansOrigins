@@ -1,0 +1,7 @@
+{
+	"name": "Drunken hunger",
+	"description": "You are constantly hungry due to your drunken state.",
+	"type": "origins:exhaust",
+	"interval": 20,
+	"exhaustion": 0.812
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"olympians:fireball",
+		"olympians:saturation_hestia",
+		"olympians:regen",
+		"olympians:immunity",
+		"olympians:flame_watch"
+	],
+	"icon": "minecraft:campfire",
+	"order": 10,
+	"impact": 2,
+	"name": "Hestia",
+	"description": "The goddess of the home and hearth."
+}

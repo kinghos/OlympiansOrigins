@@ -1,0 +1,27 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"hidden": true,
+	"hud_render": {
+		"should_render": false
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+					"command": "effect give @s regeneration 7 2",
+					"permission_level": 4
+			},
+			{
+			"type": "origins:execute_command",
+				"command": "effect give @s resistance 7 1",
+				"permission_level": 4
+			}
+		]
+	},
+	"cooldown": 6000,
+	"name": "Dryad's Blessing",
+	"description": "Summon a circle that give health boosting effects."
+}

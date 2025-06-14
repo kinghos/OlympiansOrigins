@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"olympians:infatuation",
+		"olympians:life_boost",
+		"olympians:weak_hit",
+		"olympians:poison_arrow",
+		"olympians:toxic_bow"
+	],
+	"icon": "minecraft:rose_bush",
+	"order": 10,
+	"impact": 1,
+	"name": "Aphrodite",
+	"description": "The goddess of love and beauty."
+}

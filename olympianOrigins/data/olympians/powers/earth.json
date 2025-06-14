@@ -1,0 +1,21 @@
+{
+	"name": "Earthquake",
+	"description": "Create an explosion in the area around you.",
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"cooldown": 600,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 0
+	},
+	"entity_action": {
+		"type": "origins:explode",
+		"power": 3,
+		"destruction_type": "none",
+		"damage_self": false,
+		"create_fire": false
+	}
+}

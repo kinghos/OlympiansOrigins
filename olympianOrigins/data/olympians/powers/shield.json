@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Aegis' protection",
+  "description": "Gives extra defence from Athena's legendary shield.",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 8.0,
+    "operation": "addition"
+  }
+}

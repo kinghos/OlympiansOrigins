@@ -1,0 +1,28 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 5
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+					"command": "summon area_effect_cloud ~ ~ ~ {Passengers:[{id:zombie},{id:zombie},{id:zombie},{id:zombie},{id:zombie}]}",
+					"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+					"command": "summon area_effect_cloud ~ ~ ~ {Passengers:[{id:skeleton},{id:skeleton},{id:skeleton},{id:skeleton},{id:skeleton}]}",
+					"permission_level": 4
+			}
+		]
+	},
+	"cooldown": 12000,
+	"name": "Undead summoning",
+	"description": "Summons a group of undead."
+}

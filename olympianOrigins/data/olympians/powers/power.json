@@ -1,0 +1,10 @@
+{
+	"name": "Underworld domain",
+	"description": "Can mine stone with bare fists.",
+	"type": "origins:modify_harvest",
+	"allow": true,
+	"block_condition": {
+		"type": "origins:in_tag",
+		"tag": "origins:natural_stone"
+	}
+}

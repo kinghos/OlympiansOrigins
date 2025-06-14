@@ -1,0 +1,23 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:fireball",
+	"cooldown": 1200,
+	"count": 1,
+	"speed": 1.5,
+	"divergence": 0,
+	"sound": "minecraft:item.firecharge.use",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 7
+	},
+	"name": "Flame of the fireplace",
+	"description": "You can shoot out a fireball.",
+	"destruction_type": "none",
+	"damage_self": false,
+	"create_fire": false
+}

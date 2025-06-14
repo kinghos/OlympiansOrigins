@@ -1,0 +1,47 @@
+{
+	"name": "Hera's curse",
+	"description": "Applies a random negative effect on hit.",
+	"type": "origins:target_action_on_hit",
+	"cooldown": 400,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+			"type": "origins:choice",
+			"actions": [{
+					"element": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:poison",
+							"duration": 400,
+							"amplifier": 0
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:weakness",
+							"duration": 400,
+							"amplifier": 0
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:slowness",
+							"duration": 400,
+							"amplifier": 0
+						}
+					},
+					"weight": 1
+				}
+			]
+		}]
+	}
+
+}

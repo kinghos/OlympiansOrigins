@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"olympians:arrow_shot",
+		"olympians:summon_wolf",
+		"olympians:carnivore",
+		"olympians:moon_power",
+		"olympians:fade_moon"
+	],
+	"icon": "minecraft:vine",
+	"order": 10,
+	"impact": 2,
+	"name": "Artemis",
+	"description": "The goddess of the moon and the hunt."
+}

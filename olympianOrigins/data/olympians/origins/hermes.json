@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"olympians:elytra",
+		"olympians:light",
+		"olympians:fly",
+		"olympians:speed",
+		"olympians:claus"
+	],
+	"icon": "minecraft:leather_boots",
+	"order": 10,
+	"impact": 2,
+	"name": "Hermes",
+	"description": "Emissary of the gods."
+}

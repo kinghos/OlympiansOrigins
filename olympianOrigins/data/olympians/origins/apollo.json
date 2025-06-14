@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"olympians:sun_power",
+		"olympians:fade_sun",
+		"olympians:bow",
+		"olympians:fire_sun"
+	],
+	"icon": "minecraft:bow",
+	"order": 10,
+	"impact": 2,
+	"name": "Apollo",
+	"description": "God of the sun and archery."
+}

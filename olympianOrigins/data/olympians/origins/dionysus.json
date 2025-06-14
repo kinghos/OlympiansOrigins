@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"olympians:party",
+		"olympians:rage",
+		"olympians:hunger",
+		"olympians:naus"
+	],
+	"icon": "minecraft:potion",
+	"order": 10,
+	"impact": 1,
+	"name": "Dionysus",
+	"description": "God of alcohol and parties."
+}

@@ -1,0 +1,13 @@
+{
+	"name": "One-eyed",
+	"description": "You have reduced vision due to only having one eye, however it also means that you cannot aggro endermen.",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:carved_pumpkin",
+			"tag": "{Enchantments:[{id:binding_curse,lvl:1}]}",
+            "amount": 1,
+            "slot": 39
+        }
+    ]
+}

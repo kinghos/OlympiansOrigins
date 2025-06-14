@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "olympians:setup"
+    ],
+	"icon": "minecraft:observer",
+	"order": 10,
+	"impact": 0,
+	"name": "Developer",
+	"description": "Use at the start of the world to setup for certain origins."
+}

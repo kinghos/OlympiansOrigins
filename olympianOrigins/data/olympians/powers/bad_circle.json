@@ -1,0 +1,28 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+		"bar_index": 14
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+					"command": "summon armor_stand ~ ~ ~ {Tags:[\"c2\"],Invisible:1}",
+					"permission_level": 4
+			},
+			{
+			"type": "origins:execute_command",
+				"command": "setblock 10000001 66 357 minecraft:redstone_block",
+				"permission_level": 4
+			}
+		]
+	},
+	"cooldown": 6000,
+	"name": "Dryad's Corruption",
+	"description": "Summon a circle that corrupts nearby players."
+}

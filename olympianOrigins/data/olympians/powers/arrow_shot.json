@@ -1,0 +1,20 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 2
+    },
+	"count": 10,
+	"divergence": 5,
+	"speed": 3,
+    "tag": "{pickup:0b}",
+    "key": {
+        "key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"name": "Arrow shot",
+	"description": "You shoot out a large spray of arrows."
+}

@@ -1,0 +1,11 @@
+{
+   "name": "Wolf companion",
+   "description": "Occasionally when you hit something you summon a temporary wolf.",
+   "type": "origins:target_action_on_hit",
+   "cooldown": 120,
+   "entity_action": {
+      "type": "origins:execute_command",
+      "command": "summon wolf ~ ~ ~ {Owner:Cosmocow, ActiveEffects:[{Id:20,Amplifier:2,Duration:1000000}]}",
+      "permission_level": 4
+   }
+}

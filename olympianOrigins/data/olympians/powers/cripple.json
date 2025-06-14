@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Crippled God",
+  "description": "After being dropped from Mount Olympus as a child, you have reduced health.",
+  "modifier": {
+    "name": "Crippled",
+    "attribute": "minecraft:generic.max_health",
+    "value": -4.0,
+    "operation": "addition"
+  }
+}

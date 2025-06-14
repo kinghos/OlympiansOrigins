@@ -1,0 +1,28 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 9
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+					"command": "effect give @s resistance 10 99",
+					"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+					"command": "effect give @s weakness 10 99",
+					"permission_level": 4
+			}
+		]
+	},
+	"cooldown": 12000,
+	"name": "Hestia's hearth",
+	"description": "Gain temporary immunity, however you cannot deal damage during this period."
+}

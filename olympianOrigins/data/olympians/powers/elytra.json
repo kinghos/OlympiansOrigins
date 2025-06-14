@@ -1,0 +1,6 @@
+{
+	"name": "Winged sandals",
+	"description": "You have a permanent elytra.",
+	"type": "origins:elytra_flight",
+	"render_elytra": true
+}

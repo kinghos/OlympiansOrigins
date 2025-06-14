@@ -1,0 +1,15 @@
+{
+	"name": "Heartbreak strike",
+	"description": "Applies the weakness effect on hit.",
+	"type": "origins:target_action_on_hit",
+	"cooldown": 600,
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:weakness",
+			"duration": 200,
+			"amplifier": 0
+		}
+	}
+
+}

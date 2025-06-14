@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"olympians:lightning_bolt",
+		"olympians:cloud",
+		"olympians:lord_sky",
+		"olympians:wrath",
+		"olympians:blessing"
+		"olympians:lava_walk"
+	],
+	"icon": "minecraft:lightning_rod",
+	"order": 10,
+	"impact": 1,
+	"name": "Zeus",
+	"description": "God of the sky and lightning."
+}

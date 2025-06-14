@@ -1,0 +1,74 @@
+{
+    "type": "origins:multiple",
+    "name": "Carnivore",
+    "description": "You can only eat meat due to your hunting expertise.",
+    "restrict_food": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:apple"
+                },
+                {
+                    "item": "minecraft:mushroom_stew"
+                },
+                {
+                    "item": "minecraft:bread"
+                },
+                {
+                    "item": "minecraft:cookie"
+                },
+                {
+                    "item": "minecraft:melon_slice"
+                },
+                {
+                    "item": "minecraft:dried_kelp"
+                },
+                {
+                    "item": "minecraft:carrot"
+                },
+                {
+                    "item": "minecraft:potato"
+                },
+                {
+                    "item": "minecraft:baked_potato"
+                },
+                {
+                    "item": "minecraft:poisonous_potato"
+                },
+                {
+                    "item": "minecraft:pumpkin_pie"
+                },
+                {
+                    "item": "minecraft:beetroot"
+                },
+                {
+                    "item": "minecraft:beetroot_soup"
+                },
+                {
+                    "item": "minecraft:sweet_berries"
+                },
+                {
+                    "item": "minecraft:glow_berries"
+                },
+                {
+                    "item": "minecraft:honey_bottle"
+                },
+                {
+                    "item": "minecraft:golden_apple"
+                },
+                {
+                    "item": "minecraft:enchanted_golden_apple"
+                }
+            ]
+        }
+    },
+    "no_cakes" : {
+        "type": "origins:prevent_block_use",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:cake"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Battle skin",
+  "description": "Hardened skin from battle gives extra defence.",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 8.0,
+    "operation": "addition"
+  }
+}

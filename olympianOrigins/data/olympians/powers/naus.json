@@ -1,0 +1,15 @@
+{
+	"name": "Drunken strike",
+	"description": "Applies the nausea effect on hit.",
+	"type": "origins:target_action_on_hit",
+	"cooldown": 600,
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:nausea",
+			"duration": 400,
+			"amplifier": 0
+		}
+	}
+
+}

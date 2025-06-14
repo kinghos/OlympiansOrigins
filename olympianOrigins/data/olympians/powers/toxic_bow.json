@@ -1,0 +1,14 @@
+{
+	"name": "Toxic love",
+	"description": "You deal increased damage with poisoned arrows.",
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "minecraft:arrow",
+		    "tag": "{Potion: \"minecraft:poison\"}"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 6.0
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"olympians:titan_skin",
+		"olympians:cripple",
+		"olympians:fire_forge",
+		"olympians:fire_immunity",
+		"olympians:axe",
+		"olympians:fall_damage"
+	],
+	"icon": "minecraft:blast_furnace",
+	"order": 10,
+	"impact": 3,
+	"name": "Hephaestus",
+	"description": "God of fire and forges"
+}

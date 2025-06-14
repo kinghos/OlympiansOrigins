@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"olympians:beam",
+		"olympians:pumpkin",
+		"olympians:titan_flesh",
+		"olympians:titan_speed",
+		"olympians:titan_strength"
+	],
+	"icon": "minecraft:ender_eye",
+	"order": 10,
+	"impact": 1,
+	"name": "Cyclops",
+	"description": "Similar in stature to giants of ancient times, they are monsters with one eye."
+}

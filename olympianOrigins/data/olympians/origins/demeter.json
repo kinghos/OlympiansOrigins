@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"olympians:veggy",
+		"olympians:hoes",
+		"olympians:grow",
+		"olympians:ice_walk",
+		"olympians:health_demeter",
+		"olympians:saturation"
+	],
+	"icon": "minecraft:grass",
+	"order": 10,
+	"impact": 2,
+	"name": "Demeter",
+	"description": "Goddess of the harvest and agriculture."
+}

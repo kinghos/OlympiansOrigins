@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "olympians:circle",
+		"olympians:circle_second",
+		"olympians:circle_third",
+		"olympians:thorns",
+        "olympians:bad_circle",
+		"olympians:bad_circle_second",
+		"olympians:bad_circle_third",
+		"olympians:bow_left",
+		"olympians:fire_weak",
+		"olympians:nether_weak"
+    ],
+	"icon": "minecraft:oak_leaves",
+	"order": 10,
+	"impact": 2,
+	"name": "Dryad",
+	"description": "Protector of the wild and nature."
+}

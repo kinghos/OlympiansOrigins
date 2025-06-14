@@ -1,0 +1,28 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 8
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+					"command": "effect give @s slowness 20 1",
+					"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+					"command": "give @s minecraft:tipped_arrow{Potion:\"minecraft:poison\"}",
+					"permission_level": 4
+			}
+		]
+	},
+	"cooldown": 2400,
+	"name": "Love's revenge",
+	"description": "Gives you a poisoned arrow to revenge, but slowness due to guilt."
+}

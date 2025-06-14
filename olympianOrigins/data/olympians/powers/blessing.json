@@ -1,0 +1,64 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 10,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": {
+			"type": "origins:apply_effect",
+			"effects": [{
+					"effect": "minecraft:regeneration",
+					"amplifier": 0,
+					"duration": 9999999,
+					"is_ambient": true,
+					"show_particles": false
+				},
+				{
+					"effect": "minecraft:speed",
+					"amplifier": 0,
+					"duration": 9999999,
+					"is_ambient": true,
+					"show_particles": false
+				},
+				{
+					"effect": "minecraft:night_vision",
+					"duration": 9999999,
+					"is_ambient": true,
+					"show_particles": false
+				},
+				{
+					"effect": "minecraft:strength",
+					"amplifier": 0,
+					"duration": 9999999,
+					"is_ambient": true,
+					"show_particles": false
+				}
+
+			]
+		}
+	},
+	"falling_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:clear_effect",
+				"effect": "minecraft:regeneration"
+			},
+			{
+				"type": "origins:clear_effect",
+				"effect": "minecraft:speed"
+			},
+			{
+				"type": "origins:clear_effect",
+				"effect": "minecraft:night_vision"
+			},
+			{
+				"type": "origins:clear_effect",
+				"effect": "minecraft:strength"
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:in_rain"
+	},
+	"name": "Thundery domain",
+	"description": "You gain beneficial effects during a storm."
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"olympians:health_ares",
+		"olympians:hard_skin",
+		"olympians:meat",
+		"olympians:bloodlust",
+		"olympians:ares_rage"
+	],
+	"icon": "minecraft:iron_sword",
+	"order": 10,
+	"impact": 1,
+	"name": "Ares",
+	"description": "The god of war."
+}

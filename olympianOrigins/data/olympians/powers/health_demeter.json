@@ -1,0 +1,11 @@
+{
+	"name": "Famine",
+	"description" : "Demeter has reduced health due to harsh winters.",
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Nine lives health reduction",
+		"attribute": "minecraft:generic.max_health",
+		"value": -6.0,
+		"operation": "addition"
+	}
+}

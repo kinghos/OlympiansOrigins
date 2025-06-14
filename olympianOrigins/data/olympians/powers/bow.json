@@ -1,0 +1,13 @@
+{
+	"name": "Godly accuracy",
+	"description": "You deal increased damage with a bow.",
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "minecraft:arrow"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 4.0
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"olympians:sage",
+		"olympians:warfare",
+		"olympians:shield",
+		"olympians:aquaphobia"
+	],
+	"icon": "minecraft:book",
+	"order": 10,
+	"impact": 1,
+	"name": "Athena",
+	"description": "The goddess of wisdom and war."
+}

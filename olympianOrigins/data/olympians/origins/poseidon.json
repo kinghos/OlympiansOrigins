@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "olympians:ocean_dweller",
+        "olympians:beached",
+        "olympians:earth",
+        "olympians:trident"
+    ],
+	"icon": "minecraft:trident",
+	"order": 10,
+	"impact": 3,
+	"name": "Poseidon",
+	"description": "God of the ocean and seas."
+}

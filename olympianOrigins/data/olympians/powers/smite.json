@@ -1,0 +1,17 @@
+{
+    "type": "origins:conditioned_attribute",
+    "name": "Smitten touch",
+    "description": "All of your attacks do extra damage to undead.",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4.0
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+			"condition": {
+				"type": "origins:entity_type",
+				"group": "undead"
+			}			
+        }
+}

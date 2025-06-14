@@ -1,0 +1,17 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 20,
+	"effects": [
+		{
+			"effect": "minecraft:saturation",
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		}
+	],
+	"name": "Food of the fire",
+	"description": "A good home always has food prepared, gives saturation."
+}

@@ -1,0 +1,31 @@
+{
+	"type": "origins:multiple",
+	
+    "heal_in_fire": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 1,
+        "max_stacks": 2,
+        "duration_per_stack": 20,
+        "tick_rate": 20,
+        "effects": [
+            {
+                "effect": "minecraft:regeneration",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:saturation",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        ],
+        "condition": {
+            "type": "origins:on_fire"
+        }
+    },
+
+	"name": "Ashen Shadow",
+	"description": "Gain immunity to fire, and replenish health & hunger while burning. However, this is your only means of health regeneration, aside from Forsaken Wraith."
+}

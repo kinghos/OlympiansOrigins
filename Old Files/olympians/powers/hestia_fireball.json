@@ -1,4 +1,9 @@
 {
+	"type": "origins:multiple",
+	"entity_action": {
+		"type": "origins:set_on_fire",
+		"duration": 5
+	},
 	"type": "origins:fire_projectile",
 	"entity_type": "minecraft:fireball",
 	"cooldown": 1200,

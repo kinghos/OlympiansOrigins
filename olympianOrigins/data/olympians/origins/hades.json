@@ -1,13 +1,10 @@
 {
-    "type": "origins:power",
     "name": "Hades Origin",
     "description": "The god of the underworld.",
     "powers": [
-        {
-            "type": "olympians:hades_shadow_step"
-        }
-    ],
-    "attributes": {
-        "origins:health": 20
-    }
+        "olympians:hades_shadow_step",
+        "olympians:hades_phasing",
+        "olympians:hades_phantomise",
+        "olympians:hades_phantomise_overlay"
+    ]
 }

@@ -1,0 +1,59 @@
+{
+    "type": "origins:multiple",
+    "description": "Allows you to phase through blocks, but drains your phase meter.",
+    "loading_priority": 1,
+    "blacklist": true,
+    "hidden": true,
+    "view_distance": 10,
+    "phase_meter": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 180,
+		"start_value": 180,
+		"min_action": {
+			"type": "origins:toggle",
+			"power": "*:*_grant"
+		},
+		"hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index": 8,
+			"condition": {
+			"type": "origins:resource",
+				"resource": "*:*_phase_meter",
+				"comparison": "<",
+				"compare_to": 180
+			}
+		}
+	},
+    "grant":{
+		"type": "origins:toggle",
+		"active_by_default": false
+	},
+	"lose":{
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_phase_meter",
+			"change": -1
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_grant"
+		}
+	},
+	"refill":{
+		"type": "origins:action_over_time",
+		"interval": 30,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_phase_meter",
+			"change": 1
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_grant",
+			"inverted": true
+		}
+	}
+}

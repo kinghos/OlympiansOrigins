@@ -1,26 +1,28 @@
 {
     "type": "origins:active_self",
     "key": {
-        "key": "key.origins.primary_active"
+        "key": "key.origins.secondary_active"
     },
     "name": "Shadow Step",
     "description": "Step into the shadows, becoming invisible for a short time.",
-    "cooldown": 24000,
+    "cooldown": 2400,
     "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-        "bar_index": 9
-    },
-    "effects": [
-        {
-            "type": "origins:invisibility",
-            "duration": 200,
-            "amplifier": 0
-        },
-        {
-            "type": "origins:speed",
-            "duration": 200,
-            "amplifier": 1
-        }
-    ]
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 9
+	},
+    "entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+					"command": "effect give @s invisibility 10 0 true",
+					"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+					"command": "effect give @s speed 10 2 true",
+					"permission_level": 4
+			}
+		]
+	}
 }

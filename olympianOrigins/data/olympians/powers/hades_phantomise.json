@@ -1,0 +1,14 @@
+{
+    "type": "origins:toggle",
+    "name": "Helm of Darkness",
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    },
+    "retain_state": false,
+    "condition": {
+      "type": "apoli:food_level",
+      "comparison": ">",
+      "compare_to": 6
+    }
+  }

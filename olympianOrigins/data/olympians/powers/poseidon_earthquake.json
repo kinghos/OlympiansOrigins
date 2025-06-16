@@ -1,18 +1,38 @@
 {
 	"name": "Earthquake",
 	"description": "Create an explosion in the area your trident lands.",
-	"type": "origins:action_on_item_use",
-	"item_action": {
-		"type": "origins:explode",
-		"power": 3,
-		"destruction_type": "none",
-		"damage_self": false,
-		"create_fire": false
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar.png",
+		"bar_index": 1
 	},
 	"item_condition": {
 		"type": "origins:ingredient",
-        "ingredient": {
-            "item": "minecraft:trident"
-        }
+		"ingredient": {
+			"item": "minecraft:trident"
+		}
+	},
+	"entity_action": {
+		"type": "origins:raycast",
+		"distance": 20,
+		"block": true,
+		"shape_type": "outline",
+		"fluid_handling": "any",
+		"bientity_action": {
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:explode",
+				"power": 5,
+				"destruction_type": "none",
+				"damage_self": false,
+				"create_fire": false	
+			}
 	}
+	}
+
 }

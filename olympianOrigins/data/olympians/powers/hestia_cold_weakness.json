@@ -1,0 +1,80 @@
+{
+	"name": "Dying Embers",
+    "description": "You are weaker in colder biomes.",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:biome",
+                "biome": "grove"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "ice_spikes"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "snowy_slopes"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "snowy_plains"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "frozen_peaks"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "snowy_taiga"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "jagged_peaks"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "frozen_river"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "snowy_beach"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "cold_ocean"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "deep_cold_ocean"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "frozen_ocean"
+            },
+            {
+                "type": "origins:biome",
+                "biome": "deep_frozen_ocean"
+            }
+        ]
+    },
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 1,
+	"max_stacks": 2,
+	"duration_per_stack": 20,
+	"tick_rate": 20,
+        "effects": [
+            {
+                "effect": "minecraft:weakness",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:slowness",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+		]
+}

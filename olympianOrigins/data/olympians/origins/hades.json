@@ -1,10 +1,11 @@
 {
-    "name": "Hades Origin",
-    "description": "The god of the underworld.",
-    "powers": [
-        "olympians:hades_shadow_step",
-        "olympians:hades_phasing",
-        "olympians:hades_phantomise",
-        "olympians:hades_phantomise_overlay"
-    ]
+	"name": "Hades",
+	"icon": "minecraft:lava_bucket",
+	"description": "The god of the underworld.",
+	"powers": [
+		"olympians:hades_shadow_step",
+		"olympians:hades_phasing",
+		"olympians:hades_phantomise",
+		"olympians:hades_phantomise_overlay"
+	]
 }

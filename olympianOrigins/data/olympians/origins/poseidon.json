@@ -1,8 +1,9 @@
 {
-    "name": "Poseidon Origin",
-    "description": "The god of the sea.",
-    "powers": [
-        "olympians:poseidon_beam",
-        "olympians:poseidon_earthquake"
-    ]
+	"name": "Poseidon",
+	"icon": "minecraft:trident",
+	"description": "The god of the sea.",
+	"powers": [
+		"olympians:poseidon_beam",
+		"olympians:poseidon_earthquake"
+	]
 }

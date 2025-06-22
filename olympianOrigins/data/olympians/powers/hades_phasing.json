@@ -63,7 +63,7 @@
 			"if_action":{
 				"type":"origins:change_resource",
 				"resource":"*:*_resource",
-				"change":-1
+				"change":-2
 			},
 			"else_action":{
 				"type":"origins:change_resource",

@@ -3,7 +3,10 @@
     "icon": "minecraft:lingering_potion",
     "description": "The god of wine.",
     "powers": [
-        "olympians:dionysus_hunger"
+        "olympians:dionysus_hunger",
+        "olympians:dionysus_party",
+        "olympians:dionysus_poison",
+        "olympians:dionysus_rage"
     ]
 
 }

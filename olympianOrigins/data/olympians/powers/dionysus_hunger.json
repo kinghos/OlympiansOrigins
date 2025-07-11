@@ -1,0 +1,7 @@
+{
+    "name": "Hunger",
+    "description": "You get exhausted easily, and lose hunger faster over time",
+    "type": "origins:exhaust",
+    "interval": 200,
+    "exhaustion": 0.2
+}

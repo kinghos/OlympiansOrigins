@@ -1,0 +1,12 @@
+{
+	"name": "Hestia",
+	"icon": "minecraft:campfire",
+	"description": "The god of the hearth.",
+	"powers": [
+		"olympians:hestia_campfire_heal",
+        "olympians:hestia_cold_weakness",
+        "olympians:hestia_fire_immune",
+        "olympians:hestia_healing",
+        "olympians:hestia_health"
+	]
+}

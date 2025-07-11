@@ -1,0 +1,9 @@
+{
+    "name": "Dionysus",
+    "icon": "minecraft:lingering_potion",
+    "description": "The god of wine.",
+    "powers": [
+        "olympians:dionysus_hunger"
+    ]
+
+}

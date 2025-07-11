@@ -2,7 +2,9 @@
     "replace": false,
     "origins": [
       "olympians:hades",
-      "olympians:poseidon"
+      "olympians:poseidon",
+      "olympians:dionysus",
+      "olympians:hestia"
     ]
   }
   

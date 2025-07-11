@@ -1,0 +1,15 @@
+{
+	"name": "Drunken strike",
+	"description": "Applies the poison effect on hit.",
+	"type": "origins:target_action_on_hit",
+	"cooldown": 200,
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:poison",
+			"duration": 100,
+			"amplifier": 0
+		}
+	}
+
+}

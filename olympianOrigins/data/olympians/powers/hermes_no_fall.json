@@ -1,0 +1,6 @@
+{
+    "name": "Feather footed",
+    "description": "You are immune to fall damage.",
+    "type": "origins:modify_falling",
+    "take_fall_damage": false
+}

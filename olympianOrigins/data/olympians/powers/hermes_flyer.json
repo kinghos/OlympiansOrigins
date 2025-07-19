@@ -1,0 +1,151 @@
+{
+  "type": "origins:multiple",
+    "grant": {
+      "type": "origins:toggle",
+      "active_by_default": false
+    },
+    "floating_effect": {
+      "type": "origins:stacking_status_effect",
+      "min_stacks": 0,
+      "max_stacks": 1,
+      "duration_per_stack": 20,
+      "tick_rate": 20,
+      "effects": [
+        {
+          "effect": "minecraft:slow_falling",
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": false
+        }
+      ],
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_grant"
+      }
+    },
+	"flying_effect": {
+      "type": "origins:stacking_status_effect",
+      "min_stacks": 0,
+      "max_stacks": 1,
+      "duration_per_stack": 18.9,
+      "tick_rate": 20,
+      "effects": [
+        {
+          "effect": "minecraft:levitation",
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": false
+        }
+      ],
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_grant"
+      }
+    },
+    "ice": {
+      "type": "origins:action_over_time",
+      "interval": 1,
+      "entity_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal",
+            "permission_level": 4
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal",
+            "permission_level": 4
+          }
+        ]
+      },
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:power_active",
+            "power": "*:*_grant"
+          },
+          {
+            "type": "origins:resource",
+            "resource": "*:*_freeze",
+            "comparison": ">=",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "fancy": {
+      "type": "origins:action_over_time",
+      "interval": 2,
+      "entity_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal",
+            "permission_level": 4
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal",
+            "permission_level": 4
+          }
+        ]
+      },
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_grant"
+      }
+    },
+    "freeze": {
+      "type": "origins:resource",
+      "min": 0,
+      "max": 20,
+      "start_value": 20,
+      "min_action": {
+        "type": "origins:toggle",
+        "power": "*:*_grant"
+      },
+      "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 16,
+        "condition": {
+          "type": "origins:resource",
+          "resource": "*:*_freeze",
+          "comparison": "<",
+          "compare_to": 180
+        }
+      }
+    },
+    "lose": {
+      "type": "origins:action_over_time",
+      "interval": 20,
+      "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:*_freeze",
+        "change": -1
+      },
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_grant"
+      }
+    },
+    "refill": {
+      "type": "origins:action_over_time",
+      "interval": 30,
+      "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:*_freeze",
+        "change": 1
+      },
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_grant",
+        "inverted": true
+      }
+    },
+  "name": "Flaming Embrace",
+  "description": "You embrace the flames within and heal when on fire."
+}

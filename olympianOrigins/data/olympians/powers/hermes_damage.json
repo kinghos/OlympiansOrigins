@@ -1,0 +1,14 @@
+{
+	"name": "Flying combat",
+	"description": "Deal extra damage whilst airborne.",
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+		"name": "Extra damage while fall flying",
+		"value": 1.5,
+		"operation": "multiply_base"
+	},
+	"condition": {
+        "inverted": true,
+        "type": "origins:on_block"
+	}
+}
